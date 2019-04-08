@@ -6,6 +6,6 @@ RUN pip3 install scipy
 RUN pip3 install scikit-learn
 
 COPY classifier.py /classifier.py
-COPY iterate_benchmarks.py /iterate_benchmarks.py
+COPY benchmarks.py /benchmarks.py
 
-CMD python3 iterate_benchmarks.py
+CMD python3 benchmarks.py
